@@ -1,8 +1,10 @@
 langgraph
+langchain
 langgraph-sdk
 langchain-community
 langchain-core
 langchain-groq
 streamlit
+wikipedia
 python-dotenv
 IPython
