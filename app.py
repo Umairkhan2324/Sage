@@ -10,7 +10,7 @@ from langchain_community.document_loaders import WikipediaLoader
 import json
 
 # Initialize LLM and search tools
-llm = ChatGroq(model="llama-3.1-70b-versatile", temperature=0.1)
+llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.1)
 tavily_search = TavilySearchResults(max_results=3)
 
 # Define data models
